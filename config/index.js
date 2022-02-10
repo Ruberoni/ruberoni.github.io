@@ -3,10 +3,10 @@ module.exports = {
   author: "@ruberoni",
   siteTitle: "Ruben's personal portfolio",
   siteShortTitle: "Rubén", // Used as logo text in header, footer, and splash screen
-  siteDescription: "Get to know me and my projects better.",
+  siteDescription: "Get to know me and my work better.",
   siteUrl: "https://ruberoni.github.io/",
   siteLanguage: "en_US",
-  siteIcon: "🔵", // Relative to gatsby-config file
+  siteIcon: "content/blue-circle.png", // Relative to gatsby-config file
   seoTitleSuffix: "Ruben's personal portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
@@ -71,10 +71,10 @@ module.exports = {
     //   name: "Behance",
     //   url: "https://www.behance.net/konstanmnster",
     // },
-    // {
-    //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
-    // },
+    {
+      name: "Mail",
+      url: "mailto:ruben.pardes25@gmail.com",
+    },
   ],
 
   //-- NAVIGATION SETTINGS -----
@@ -85,7 +85,7 @@ module.exports = {
         url: "/#about",
       },
       {
-        name: "Features",
+        name: "Projects",
         url: "/#projects",
       },
       {
@@ -105,9 +105,9 @@ module.exports = {
       name: "Privacy",
       url: "/privacy",
     },
-    {
-      name: "Imprint",
-      url: "/imprint",
-    },
+    // {
+    //   name: "Imprint",
+    //   url: "/imprint",
+    // },
   ],
 }
